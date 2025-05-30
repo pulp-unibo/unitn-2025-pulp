@@ -2,22 +2,15 @@
 
 **Guidelines:**
 
-1. Start by reading the [slides](./docs/slides.pdf);
-2. Then read the [assignment](./docs/assignment.pdf);
-3. Now complete the assignment: [colab](APAI24-LAB1-DNN-definition-and-training.ipynb).
+1. Start by reading the slides related to this task
+2. Then read the related assignment provided to you in the Hands-on document;
+3. Now complete the assignment. Open the python notebook with Colab.
+--> search for Colab in google. Open it. Load the notebook.
 
-
-## How to deliver the assignment:
-
-Instructions:
-* Use Virtuale platform to load your file.
-* update only the .ipynb file, named as follows: LAB1_APAI_yourname.ipynb
 
 ## Convolution visualizer 
 
 A good tool to understand how convolutions work
 
 [Visualizer](https://ezyang.github.io/convolution-visualizer/)
-
-## Assignment DEADLINE: 04/10/2024 (midnight)
 
