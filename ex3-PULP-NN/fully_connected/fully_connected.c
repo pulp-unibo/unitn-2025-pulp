@@ -32,19 +32,19 @@ int32_t dotp_u8_i8_i32(uint8_t *a, int8_t *b, size_t length) {
  * All the arguments are the same as in the function above.
  */
 int32_t dotp_u8_i8_i32_simd(uint8_t *a, int8_t *b, size_t length) {
-  v4u *vA = (v4u *)a;
-  v4s *vB = (v4s *)b;
-
+  // case the uint8_t pointers to SIMD vector pointers
+  /* YOUR CODE HERE*/
+  
   int32_t sum = 0;
-  for (int i = 0; i < length / 4; i++) 
+  // handle nr of iterations
+  for (int i = 0; i < /* YOUR CODE HERE*/; i++) {
     // The SumDotp4 considers that one word (32 bits) consists of 4 8bit operands
-    sum = SumDotp4(vA[i], vB[i], sum);
-
+    // check the SumDotp4 definition in "include/pulp_nn_utils.h"
+    /* YOUR CODE HERE*/
+  }
+  
   // Left over: handling the remaining output features
-  size_t begin = (length / 4) * 4; // length & -4
-  size_t end = begin + (length % 4);
-  for (int i = begin; i < end; i++)
-    sum += a[i] * b[i];
+  /* YOUR CODE HERE*/
 
   return sum;
 }
