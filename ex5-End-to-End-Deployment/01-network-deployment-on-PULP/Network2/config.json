@@ -1,0 +1,8 @@
+{
+    "BNRelu_bits": 32,
+    "onnx_file": "./network2.onnx",
+    "code reserved space": 150000,
+    "n_inputs": 1,
+    "input_bits": 8,
+    "input_signed": false
+}
