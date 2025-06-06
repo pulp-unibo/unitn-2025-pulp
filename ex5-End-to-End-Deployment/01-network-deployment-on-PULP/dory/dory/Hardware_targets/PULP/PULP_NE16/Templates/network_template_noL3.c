@@ -1,1 +1,0 @@
-../../PULP_gvsoc/Templates/network_template_noL3.c

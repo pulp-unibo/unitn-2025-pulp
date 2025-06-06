@@ -1,1 +1,0 @@
-../../GAP9/Templates/network_c_template.c

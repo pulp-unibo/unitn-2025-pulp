@@ -1,1 +1,0 @@
-../../../GAP9/Templates/layer_templates/layer_L2_c_addition_template.c

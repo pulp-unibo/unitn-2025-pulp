@@ -1,1 +1,0 @@
-../../PULP_gvsoc/Templates/network_h_template.h

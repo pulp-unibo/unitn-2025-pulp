@@ -1,1 +1,0 @@
-../../../PULP_gvsoc/Templates/layer_templates/pooling_layer_1D_template.c

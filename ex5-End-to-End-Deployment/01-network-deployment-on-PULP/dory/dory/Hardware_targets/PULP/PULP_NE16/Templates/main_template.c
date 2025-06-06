@@ -1,1 +1,0 @@
-../../PULP_gvsoc/Templates/main_template.c
